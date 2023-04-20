@@ -1,0 +1,122 @@
+For convinience in testing the program, the original cast thin section images, and the source codes are put in the same folder "source codes".
+
+%% Input parameters for Fig. test image
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.6; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 35; % dilaf- dilation factor Df.
+details= 0; %=1 show the figures referred to detailed procedures, =0 turn off the figures showing the detailed procedures.
+
+%% Input parameters for Fig. a
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.57; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 30; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. b
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.0; % minimum of hue.
+Hmax= 0.05; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.55; % minimum of value.
+% Dilation factor Df
+dilaf= 50; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. c
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.57; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 30; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. d
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.0; % minimum of hue.
+Hmax= 0.05; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.55; % minimum of value.
+% Dilation factor Df
+dilaf= 30; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. e
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.54; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 70; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. f
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.54; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 50; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. g
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.5; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 30; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+%% Input parameters for Fig. h
+% Tortuosity definition flags
+dtype= 1; %=1 width of the image, =2 straight-line distance between the inlet and the outlet.
+ttype= 2; %=1 average tortuosity among all pi, =2 minimum tortuosity among all pi.
+% Pore space segmentation parameters (HSV color model)
+Hmin= 0.5; % minimum of hue.
+Hmax= 0.7; % maximum of hue.
+Smin= 0.3; % minimum of saturation.
+Vmin= 0.2; % minimum of value.
+% Dilation factor Df
+dilaf= 30; % dilaf- dilation factor Df (should be a multiple of 5).
+details= 0; %=1 show the figures referred to the gradual revisions of the pore network, =0 skip the referred figures.
+
+
+
+
